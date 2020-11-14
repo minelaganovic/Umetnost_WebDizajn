@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ~A~R~T~ </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="umetnost.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body">
+    <div class="pocetna">
+        <div class="logodiv">
+            <div class="prvi">
+                <img src="Slike/logo.png" alt="nista">
+            </div>
+            <div class="drugi">
+                <nav id="main-menu">
+                    <a href="index.html"><b id="n">Istorija</b></a>
+                    <a href="prostorneumetnosti.html"><b id="na">Prostorne umetnosti</b></a>
+                    <a href="vremenskeumetnosti.html"><b id="nav">Vremenske umetnosti</b></a>
+                    <a href="Zanimljivosti.html"><b id="navv">Zanimljivosti</b></a>
+                    <a href="kontakt.html" class="active"><b id="naavv">Kontakt</b></a>
+                    <a href="Omeni.html"><b id="naa">O meni</b></a>
+                    <button id="novih" style="width: 48px; height: 20px; margin-top: 28px;background-image:url(Slike/sr.png); background-repeat: no-repeat;background-size: cover;"><a href="kontakt.html"></a> </button>
+                    <button onclick="prevedikontakt()" style="width: 48px; height:20px; margin-top:28px;background-image:url(Slike/en.png); background-repeat: no-repeat;background-size: cover;"></button>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="kontakt">
+        <div class="container">
+            <h2 id="kontakt">Kontaktirajte nas! </h2>
+            <p id="Text">Za sve što Vas ineresuje u vezi sajta, prepravke ili za nešto više, a ja ću Vam se u najkraćem roku javiti sa nekim rešenjem.</p>
+            <p id="b" style="content: ' \2706';">Putem broja:+381/64****** ili popunite kontakt formu. Pozdrav.</p>
+            <br>
+            <form name="myForm" onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="uname"><b id="VI">Vaše puno ime:</b></label>
+                    <input type="text" style="text-align: center;" title="Sva velika slova, ne moze sadrzati ništa osim razmaka kod prezimena." onkeyup="validnoIP(this)" onblur="validanoIP(this);" maxlength="20" class="form-control" id="text" placeholder="NAME_SURNAME" />
+                    <div class="error">
+                        <p id="nameerror" style="color: red;"></p>
+                    </div>
+                </div><br>
+                <div class="form-group">
+                    <label for="email"><b id="VE"> Vaš e-mail:</b></label>
+                    <input type="email" style="text-align: center;" class="form-control" title="art@example.com , ne mogu počinjati sa brojem." onkeyup="validanMejl(this)" onblur="validanMejl(this);" id="email" placeholder="art@example.com" name="e-mail" />
+                    <div class="error">
+                        <p id="namerror" style="color: red;"></p>
+                    </div><br>
+                </div>
+                <div class="form-group">
+                    <label for="Message"><b id="VC">Vaš komentar:</b></label><br>
+                    <textarea class="form-control" style="text-align: center;padding-top: 30px;" title="Moze sadržati 500 karaktera. Na kraju poruke mora biti i broj telefona." onkeyup="validnaporuka(this)" onblur="validnaporuka(this);" rows="6" id="Message" maxlength="500"
+                        placeholder="Message & Number (xxx/xxx-xx-xx)"></textarea>
+                    <div class="error">
+                        <p id="nameeror" style="color: red;"></p>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" onclick="validateForm()" style="float:right; border-radius: 10px; width: 200px; height: 60px;"><b id="p">Pošalji</b></button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div id="footer">
+        <a href="index.html" class="btn btn-dark btn-lg " role="button"> 1</a>
+        <a href="prostorneumetnosti.html" class="btn btn-dark btn-lg " role="button"> 2</a>
+        <a href="vremenskeumetnosti.html" class="btn btn-dark btn-lg " role="button">3</a>
+        <a href="Zanimljivosti.html" class="btn btn-dark btn-lg " role="button">4</a>
+        <a href="kontakt.html" class="btn btn-light btn-lg " role="button">5</a>
+        <a id="sledeca" href="Omeni.html" class="btn btn-dark btn-lg " role="button">Sledeća</a>
+        <center><i>Copyright@umetnost.com</i></center>
+    </div>
+    <script src="myScript.js"></script>
+    <script src="function.js"></script>
+</body>
+
+</html>

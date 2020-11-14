@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>~A~R~T~</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="umetnost.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="umetnost.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body">
+    <div class="pocetna">
+        <div class="logodiv">
+            <div class="prvi">
+                <img src="Slike/logo.png" alt="nista">
+            </div>
+            <div class="drugi">
+                <nav id="main-menu">
+                    <a href="index.html"><b id="n">Istorija</b></a>
+                    <a href="prostorneumetnosti.html"><b id="na">Prostorne umetnosti</b></a>
+                    <a href="vremenskeumetnosti.html"><b id="nav">Vremenske umetnosti</b></a>
+                    <a href="Zanimljivosti.html"><b id="navv">Zanimljivosti</b></a>
+                    <a href="kontakt.html"><b id="naavv">Kontakt</b></a>
+                    <a href="Omeni.html" class="active"><b id="naa">O meni</b></a>
+                    <button id="novih" style="width: 48px; height: 20px; margin-top: 28px;background-image:url(Slike/sr.png); background-repeat: no-repeat;background-size: cover;"><a href="Omeni.html"></a> </button>
+                    <button id="language" onclick="prevediomeni()" style="width: 48px; height:20px; margin-top:28px;background-image:url(Slike/en.png); background-repeat: no-repeat;background-size: cover;"></button>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="velicinee">
+        <div class="omeni">
+            <div><img src="Slike/mojasl.jpeg"></div>
+            <div>
+                <p><b>Student:</b> Minela Ganović</p>
+                <p><b>E-mail:</b><br><i onclick="sendemail()" id="mail" class="fas fa-envelope mr-3"></i>
+                    <i onclick="sendemail()" id="mail" class="font-color:red;">minelag556@gmail.com</i>
+                </p>
+                <p id="f"><b>Fakultet:</b> Državni Univerzitet Novi Pazar</p>
+                <p id="smer"><b>Smer: </b>Softversko inženjerstvo</p>
+                <p id="g"><b>Godina studija:</b> Druga</p>
+                <p id="v">Volim da crtam u slobodno vreme, što je i razlog nastanka ovog sajta.</p>
+                <p id="t">Toliko o meni.</p>
+                <p><a href="http://instagram.com/minela.ganovic/?hl=sr" id="tr"><button style="border-radius: 10px; background-color:rgba(138, 122, 101, 0.973);"><b><...></b></button></a></p>
+            </div>
+        </div>
+        <div class="omeni">
+            <br>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Slike/Slika1.jpg">
+                        <div class="carousel-caption">
+                            <p>~My Art~</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Slike/Slika6.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Slike/Slika5.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Slike/Slika7.jpg">
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <a href="index.html" class="btn btn-dark btn-lg " role="button"> 1</a>
+        <a href="prostorneumetnosti.html" class="btn btn-dark btn-lg " role="button"> 2</a>
+        <a href="vremenskeumetnosti.html" class="btn btn-dark btn-lg " role="button">3</a>
+        <a href="Zanimljivosti.html" class="btn btn-dark btn-lg " role="button">4</a>
+        <a href="kontakt.html" class="btn btn-dark btn-lg " role="button">5</a>
+        <a href="Omeni.html" class="btn btn-light btn-lg " role="button">6</a>
+        <center><i>Copyright@umetnost.com</i></center>
+    </div>
+    <script src="myScript.js"></script>
+    </script>
+</body>
+
+</html>

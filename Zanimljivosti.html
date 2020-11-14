@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ~A~R~T~ </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="umetnost.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body">
+    <div class="pocetna">
+        <div class="logodiv">
+            <div class="prvi">
+                <img src="Slike/logo.png" alt="nista">
+            </div>
+            <div class="drugi">
+                <nav id="main-menu">
+                    <a href="index.html"><b id="n">Istorija</b></a>
+                    <a href="prostorneumetnosti.html"><b id="na">Prostorne umetnosti</b></a>
+                    <a href="vremenskeumetnosti.html"><b id="nav">Vremenske umetnosti</b></a>
+                    <a href="Zanimljivosti.html" class="active"><b id="navv">Zanimljivosti</b></a>
+                    <a href="kontakt.html"><b id="naavv">Kontakt</b></a>
+                    <a href="Omeni.html"><b id="naa">O meni</b></a>
+                    <button id="novih" style="width: 48px; height: 20px; margin-top: 28px;background-image:url(Slike/sr.png); background-repeat: no-repeat;background-size: cover;"><a href="Zanimljivosti.html"></a> </button>
+                    <button onclick="prevedizanimljivosti()" style="width: 48px; height:20px; margin-top:28px;background-image:url(Slike/en.png); background-repeat: no-repeat;background-size: cover;"></button>
+                </nav>
+            </div>
+        </div>
+        <div class="velicinee">
+            <div class="omeni">
+                <h3 id="usvetuslikarstva">~U svetu slikarstva~</h3>
+                <div class="zanimljivosti">
+                    <p id="prvaS"><b>1.</b> Najskuplja slika prodata na nekoj aukciji i jedno od dela Vincenta van Gogha <b>Portret dr. Gacheta.</b> U maju 1990. u njujorškom Chriestie'su postigla je cenu od <u>82.5 miliona dolara.</u>
+                    </p>
+                </div>
+                <div class="zanimljivostiii">
+                    <p id="drugaS"><b>2.</b>Najvrednijom slikom na svetu smatra se <b>Mona Lisa</b> Leonarda da Vincija. Čuva se u pariškom Louvreu. Kad je 1960. izložena u SAD - u, osiguravajuća kuća procenila ju je na <u>100 miliona dolara.</u>
+                    </p>
+                </div>
+                <div class="zanimljivost">
+                    <p id="trecaS"><b>3.</b> Najveća slika na svetu je <b>Plafonska freska</b>, površine <u>600 metara kvadratnih</u>. Naslikao je venecijanac Gianbattista Tiepolo, a nalazi se u Nemačkom gradu Wurzburgu. </i>
+                    </p>
+                </div>
+            </div>
+            <div class="omeni">
+                <div class="container mt-3">
+                    <h3 id="usvetuarhitekture">~U svetu Arhitekture~</h3>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Slike/Kucauzid.jpg" alt="Los Angeles" width="800" height="500">
+                                <div class="carousel-caption">
+                                    <p id="kucaRodos"><b>Kuća u steni,Rodos</b><br> Kuća je zapravo uklesana u steni i skoro u potpunosti okružena njom. Neobična struktura ne izviruje iznad zemlje. U kuću se ulazi liftom ili preko 50 stepenika koji se spuštaju ka Egejskom
+                                        moru.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Slike/Novistadionn.jpg" alt="Chicago" width="800" height="500">
+                                <div class="carousel-caption">
+                                    <p id="NoviStad"><b>Novi stadion u Kataru inspirisan arapskom kapom</b><br> Stadion Al Thumama odaje počast prošlosti, ali i nudi uzbudljiv pogled u budućnost Katara.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Slike/Sjaje.jpg" alt="New York" width="800" height="500">
+                                <div class="carousel-caption">
+                                    <p id="zlatnojaje"><b>Zlatno solarno jaje u Švedskoj</b> <br>"Solarno jaje" načinjeno je od 69 čeličnih ploča nepravilnog geometrijskog oblika i reflektivne površine, koje se spajaju u obliku jajeta, pet metara visoko.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="omeni">
+                <h3 id="sboja"><b>Da li možete da zamislite svet bez boja?</b></h3>
+                <p id="zanimlj">Verovatno možete, svi smo u nekom trenutku videli crno bele filmove ili slike. Ali, kakav bi to svet bio? Svet u kojem ne možemo da se divimo boji cveća, sunca. Bilo bi zaista jednolično i neinspirativno. Boja budi otvorenost, rast i kreativnost..</p>
+                <br><img id="myImage" src="Slike/priroda.jpg" style="width:500px; height:350px ;">
+                <button onclick="myFunction()" id="bboje" class="btn btn-dark btn-lg">Bez boje</button>
+            </div>
+            <div class="prvaPU"><br>
+                <h1><img src="Slike/boje.jpg" style="width:70px;height:50px; margin-left: 210px;">Color Brands</h1>
+                <br>
+                <table style="margin-left: 66px;border: 2px solid black;">
+                    <tr>
+                        <th><img src="Slike/google.png" style="width:263px;height:131px;"></th>
+                        <th><img src="Slike/facebook.png" style="width:261px;height:131px;"></th>
+                        <th><img src="Slike/microsoftt.png" style="width:261px;height:131px;"></th>
+                    </tr>
+                    <tr style="height: 60px; color: black;">
+                        <td style="background:#4285F4;">HEX: #4285F4</td>
+                        <td style=" background:#3B5998;">HEX: #3B5998</td>
+                        <td style="background:#F65314;">HEX: #F65314</td>
+                    </tr>
+                    <tr style="height: 60px; color: #000;">
+                        <td style="background:#FBBC05;">HEX: #FBBC05</td>
+                        <td style="background:#8B9DC3;">HEX: #8B9DC3</td>
+                        <td style="background:#7CBB00;">HEX: #7CBB00</td>
+                    </tr>
+                    <tr style="height: 60px; color: black;">
+                        <td style="background:#34A853;">HEX: #34A853 </td>
+                        <td style="background: #DFE3EE;">HEX: #DFE3EE</td>
+                        <td style="background:#00A1F1 ;">HEX: #00A1F1</td>
+                    </tr>
+                    <tr style="height: 60px;color: black;">
+                        <td style="background:#EA4335;">HEX: #EA4335</td>
+                        <td style="background: #F7F7F7;">HEX: #F7F7F7</td>
+                        <td style="background:#FFBB00;">HEX: #FFBB00</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="footer">
+                <a href="index.html" class="btn btn-dark btn-lg " role="button"> 1</a>
+                <a href="prostorneumetnosti.html" class="btn btn-dark btn-lg " role="button"> 2</a>
+                <a href="vremenskeumetnosti.html" class="btn btn-dark btn-lg " role="button">3</a>
+                <a href="Zanimljivosti.html" class="btn btn-light btn-lg " role="button">4</a>
+                <a id="sledeca" href="kontakt.html" class="btn btn-dark btn-lg " role="button">Sledeća</a>
+                <center><i>Copyright@umetnost.com</i></center>
+            </div>
+            <script src="myScript.js"></script>
+</body>
+
+</html>

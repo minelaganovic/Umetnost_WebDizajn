@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ~A~R~T~ </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="umetnost.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body">
+    <div class="pocetna">
+        <div class="logodiv">
+            <div class="prvi">
+                <img src="Slike/logo.png" alt="nista">
+            </div>
+            <div class="drugi">
+                <nav id="main-menu">
+                    <a href="index.html" class="active"><b id="n">Istorija</b></a>
+                    <a href="prostorneumetnosti.html"><b id="na">Prostorne umetnosti</b></a>
+                    <a href="vremenskeumetnosti.html"><b id="nav">Vremenske umetnosti</b></a>
+                    <a href="Zanimljivosti.html"><b id="navv">Zanimljivosti</b></a>
+                    <a href="kontakt.html"><b id="naavv">Kontakt</b></a>
+                    <a href="Omeni.html"><b id="naa">O meni</b></a>
+                    <button id="novih" style="width: 48px; height: 20px; margin-top: 28px;background-image:url(Slike/sr.png); background-repeat: no-repeat;background-size: cover;"><a href="index.html"></a> </button>
+                    <button id="novih" onclick="prevediindex()" style="width: 48px; height:20px; margin-top:28px;background-image:url(Slike/en.png); background-repeat: no-repeat;background-size: cover;"></button>
+                </nav>
+            </div>
+        </div>
+        <div class="psledeca">
+            <div class="column">
+                <img src="Slike/Slika13.jpg">
+            </div>
+            <div class="blue-box">
+                <p id="umetdef"><b>Umetnost</b> predstavlja izražavanje spoljnog ili unutrašnjeg sveta smisaonim znacima-linija,ton, pokret... Umetnost svakako jeste nešto što ovom užurbanom svetu daje toplinu i boji ga u vedrije boje.</p>
+                <p id="umetdef2"> Umetnost je nastala kao izraz talentovanih i kreativnih pojedinaca, a prihvatana je ko neka vrsta razonode, što se zaključuje na osnovu proučavanja starogrčke kulture, gde su pozorišta bila svojevrsna atrakcija. Ipak, umetnosti se nije
+                    uvek pridavao veliki značaj, a umetnici su često bili neshvaćeni, kao ljudi koji imaju neki svoj svet. Jedan od primera je i slikar Vinsent van Gog. Prava vrednost njegovih dela shvaćena je, nažalost, tek nakon njegove smrti.</p>
+                <p id="umetpod"> Podela umetnosti vrši se u dve grupe:
+                    <br>
+                    <ul><a href="prostorneumetnosti.html"><b id="pu">1.Prostorne umetnosti</b></a>
+                        <li id="a">Arhitektura;</li>
+                        <li id="s">Slikarstvo;</li>
+                        <li id="v">Vajarstvo;</li>
+                    </ul>
+                    <ul><a href="vremenskeumetnosti.html"><b id="vu">2.Vremenske umetnosti</b></a>
+                        <li id="balet">Balet;</li>
+                        <li id="film">Film;</li>
+                        <li id="muzika">Muzika;</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="orange-box">
+                <p id="umetdef3">Istorija umetnosti je istraživanje istorijskog konteksta dela u odnosu na stvaraoce i periode u vizuelnim umetnostima...</p>
+                <p id="umetdef4">Začetak istorije umetnosti predstavlja delo <b> Djorđa Vazarija</b> <u>"Život slavnih slikara, vajara i arhitekata"</u> u kome je opisivao živote umetnika, njihova dela i tehnike koje su koristili.</p>
+                <center><img src="Slike/Portret.jpg"></center>
+                <p id="DV"><b>Đorđo Vazari</b>(Giorgio Vasari, 1511-1574), italijanski slikar, arhitekta i pisac jedan je od osnivača istorije umetnosti. Mada je radio na mnogim građevinama, i naslikao veliki broj fresaka i slika po rimskim i firentinskim crkvama
+                    i palatama, najveći trag Vazari je ostavio upravo na polju istorije umetnosti. </p>
+            </div>
+            <div class="omeni">
+                <h3 id="delo"> "Najznačajnije delo Djordja Vizarija"</h3>
+                <img src="Slike/ZvotiSS.jpg" style="width: 580px; height: 400px;">
+                <p id="demo" style="display:none;"> Ova knjiga otkriva lik i delo Brunoleskija, Donatela, Antonela Da Mesina, Sandra Botičelija, Leonarda Da Vinčija, Mikelanđela Buonarotija, Ticijana…Inače, ovo kapitalno delo prvi put je štampano davne 1550. godine u Firenci.</p>
+                <button onclick="saznaj()" class="btn btn-dark btn-lg" id="dugmep">Saznaj više</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <a href="index.html" class="btn btn-light btn-lg " role="button">1</a>
+        <a href="prostorneumetnosti.html" class="btn btn-dark btn-lg " id="sledeca" role="button">Sledeća</a>
+        <center><i>Copyright@umetnost.com</i></center>
+    </div>
+    <script src="myScript.js">
+    </script>
+
+</body>
+
+</html>
